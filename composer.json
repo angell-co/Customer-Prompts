@@ -1,0 +1,41 @@
+{
+    "name": "angellco/customer-prompts",
+    "description": "Prompt your customers to buy.",
+    "type": "craft-plugin",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "commerce"
+    ],
+    "support": {
+        "docs": "https://github.com/angell-co/customer-prompts/blob/master/README.md",
+        "issues": "https://github.com/angell-co/customer-prompts/issues"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Angell & Co",
+            "homepage": "https://angell.io"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.7",
+        "craftcms/commerce": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "angellco\\customerprompts\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Customer Prompts",
+        "handle": "customer-prompts",
+        "developer": "Angell & Co",
+        "developerUrl": "https://angell.io",
+        "documentationUrl": "https://github.com/angell-co/customer-prompts/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/angell-co/customer-prompts/master/CHANGELOG.md",
+        "class": "angellco\\customerprompts\\CustomerPrompts"
+    }
+}
